@@ -1,0 +1,15 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        By creating this discussion I acknowledge that:
+        * This disucsstion category is meant for community discussions.
+          * Bugs or feature requests should be reported inside [our dedicated issuetracker](https://xdevsoftware.atlassian.net/jira/projects).<br/>Our development team will have a look as soon as possible.<br/>Note however that there is no warranty that issues will be processed within a specific timeframe without a [support plan](https://rapidclipse.com/en/service/support).
+          * Further contact options are available at [our website](https://rapidclipse.com/en/about-us/contact).
+        * I made sure that there are *no [existing discussions](https://github.com/orgs/RapidClipse/discussions)* which I could contribute my information to.
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+    validations:
+      required: true
